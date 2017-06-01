@@ -7,3 +7,5 @@ node_name                "jprovencher"
 client_key               "#{current_dir}/jprovencher.pem"
 chef_server_url          "https://jimmy-provencher1.mylabserver.com/organizations/jimmyprovencher"
 cookbook_path            ["#{current_dir}/../cookbooks"]
+knife[:editor]           = "vi"
+
